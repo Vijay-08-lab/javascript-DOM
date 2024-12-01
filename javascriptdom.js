@@ -1,3 +1,4 @@
+// javascript Data types//
 var a = 40
 var b = "two"
 var c = true
