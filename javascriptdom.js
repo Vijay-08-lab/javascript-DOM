@@ -74,7 +74,7 @@ function add(a,b)
 // if else statement in Javascript //
  // Task if else 1 //
 // Did you finish your homework? // 
- let homework = true
+ /*let homework = true
  if (true)
  {
     console.log("Great job!")
@@ -117,7 +117,7 @@ if (true)
     // Task logical javascript 1 //
     //what is the season of the year?//
     
-    var season = "spring"
+  /*  var season = "spring"
 if (season == "spring") {
     console.log("Enjoy the Blooming folwer!")
 }
@@ -129,4 +129,41 @@ if (season == "autumn") {
 }
 if (season == "winter") {
     console.log("Bundel up and stay warm")
+}*/
+// Task if else 1 //
+// is the number is even //
+ /*var number = 2
+
+ if (number % 2 == 0)
+ {
+    console.log ("The number is even")
+ }
+ else
+ {
+    console.log("The number is odd")
+ }
+*/
+ // Task 2 //
+ // is the character is ovwel or consonant ?//
+
+ var character = "e"
+ if (["a","e","i","o","u"].includes(character.toLowerCase()))
+ {
+    console.log("It's vowel")
+ }
+ else
+ {
+    console.log("It's a consonant")
+ }
+
+ //task 3//
+ // check the number in the array [2,3,4,5,6] with the given number number 1,7,6,8. //
+
+ var number = 2
+if ([2,3,4,5,6].includes(number))
+{
+    console.log("you got the number!")
+}
+else {
+    console.log("did you got the number?")
 }
