@@ -167,3 +167,19 @@ if ([2,3,4,5,6].includes(number))
 else {
     console.log("did you got the number?")
 }
+
+// task 4 //
+// what is the score in a game - if the score is less than 50, print "you need to improve". -if the score is between 50 to 70 (inclusive), print "good job" -if the score is greater than 70 print "Excellent performance" //
+var score = 40
+if (score<=50) 
+    {
+    console.log("You need to improve")
+}
+else if (score>50 && score<=70)
+{
+ console.log("Good Job!")
+}
+else if (score>70)
+{
+    console.log("Excellent performance!")
+}
