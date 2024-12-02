@@ -202,7 +202,11 @@ calculation()
 */
 // Task 3 //
 // print 1 to 10 in Reverse using for loop //
+/*
 for (p=10;p>=1;p=p-1)
 {
     console.log(p)
 }
+    */
+   
+
