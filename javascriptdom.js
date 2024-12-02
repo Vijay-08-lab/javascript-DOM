@@ -145,7 +145,7 @@ if (season == "winter") {
 */
  // Task 2 //
  // is the character is ovwel or consonant ?//
-
+/*
  var character = "e"
  if (["a","e","i","o","u"].includes(character.toLowerCase()))
  {
@@ -170,7 +170,7 @@ else {
 
 // task 4 //
 // what is the score in a game - if the score is less than 50, print "you need to improve". -if the score is between 50 to 70 (inclusive), print "good job" -if the score is greater than 70 print "Excellent performance" //
-var score = 40
+/*var score = 40
 if (score<=50) 
     {
     console.log("You need to improve")
@@ -182,4 +182,27 @@ else if (score>50 && score<=70)
 else if (score>70)
 {
     console.log("Excellent performance!")
+}
+// For loop //
+// task 1 //
+// print 1 to 10 number using for loop //
+/*for (number =1;number<=10;number=number+1)
+{
+    console.log(number)
+}*/
+// Task 2 //
+// print number 1 to 10, but increment by 2 in each step using for loop //
+/*function calculation (){
+    for (count=1;count<=10;count=count+2)
+    {
+        console.log(count)
+    }
+}
+calculation()
+*/
+// Task 3 //
+// print 1 to 10 in Reverse using for loop //
+for (p=10;p>=1;p=p-1)
+{
+    console.log(p)
 }
