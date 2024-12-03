@@ -1,0 +1,33 @@
+<!--project about getting data from the client and print in the site---->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>printing client data</title>
+    </head>
+    <body>
+        <center> <h1>Getting client data and show the data</h1>
+        <h5>please fill your name</h5>
+        <input id="fname" placeholder="First Name">
+        <input id="lname" placeholder="Last Name">
+        <input type="submit" id="sub" onclick="submit()">
+        <p id="show"></p>
+    </center>
+    <script>
+        function submit()
+        {
+            var box1 = document.getElementById("fname")
+        var box2 = document.getElementById("lname")
+        var show = document.getElementById("show")
+
+        var in1 =box1.value
+        var in2 =box2.value
+            var combine =in1 +" "+in2
+               console.log(combine)
+               show.textContent = combine
+
+        }
+
+    </script>
+
+    </body>
+</html>

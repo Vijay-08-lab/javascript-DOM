@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <title>Guess The number</title>
-</head>
-<body>
-    <script>
-        var guess = document.getElementById("guess")
+        <title>Guess The Number</title>
+    </head>
+    <body>
+        <div>
+            <h1>Guess The Number</h1>
+            <input id="guess">
+            <button onclick="check()">Check</button>
+            <p id="dis"><strong>Let's see the Guess Number</strong></p>
+            <h5> Note:The number should be 1 to 10</h5>
+        </div>
+        <script>
+            var guess = document.getElementById("guess")
             var dis = document.getElementById("dis")
 
             function check()
@@ -24,15 +31,8 @@
                 dis.textContent= "No You Loss"
             }
             }
-    </script>
-    <div>
-        <h1>Guess The Number</h1>
-        <input id="guess">
-        <button onclick="check()">Check</button>
-        <p id="dis"><strong>Let's see the Guess Number</strong></p>
-        <h5> Note:The number should be 1 to 10</h5>
-    </div>
 
+        </script>
 
-</body>
+    </body>
 </html>
