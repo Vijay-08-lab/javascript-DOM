@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>controlling color and width of the element by DOM-javascript</title>
+    </head>
+    <body>
+        <center>
+        <h1>This session is about manuplating the color and  width of the element by DOM</h1>
+        <div id="mark"></div>
+        <br>
+        <button id="change" onclick="changecolor()" >Change</button>
+        <style>
+         div{
+            background-color: black;
+            height: 100px;
+            width: 100px;
+         }
+         .widthmax{
+            width: 100%;
+            transition: 2s;
+         }   
+        </style>
+        <script>
+            function changecolor(){
+                var mark = document.getElementById("mark")
+                mark.style.backgroundColor="blue"
+                mark.setAttribute("class","widthmax")
+              mark.textContent = "Hai Sandeep Welcome to the session!";
+               mark.style.textAlign = "auto";
+               mark.style.fontSize = "30px";
+               mark.style.color = "white"
+              
+
+                
+            }
+        </script>
+    </center>
+    </body>
+</html>
