@@ -8,7 +8,16 @@
         <h1 id="result"></h1>
 
         <button id="add" onclick="adding()">Add</button>
-        <h1 id="output"></h1>
+        <div id="output">
+
+        </div>
+        <br>
+        <button id="bt" onclick="document.getElementById('bt').style.backgroundColor ='red'">Change</button>
+        <hr>
+        <h1 id="op">Name</h1>
+        <button id="bn1" onclick="bf1(event)">John</button>
+        <button id="bn2" onclick="bf2(event)">Praveen</button>
+        <button id="bn3" onclick="bf3(event)">Karthi</button>
         <script>
             var inputbox = document.getElementById("inputbox")
             var result = document.getElementById("result")
@@ -22,8 +31,29 @@
             var ouput = document.getElementById("output")
             function adding()
             {
-                ouput.textContent = "Hello";
+                var listitem = document.createElement("h1")
+                listitem.textContent="Hello"
+                output.append(listitem)
             }
+            var op = document.getElementById("op")
+            var bn1 = document.getElementById("bn1")
+            var bn2 = document.getElementById("bn2")
+            var bn3 = document.getElementById("bn3")
+            function bf1 ()
+            {
+                op.textContent =event.target.textContent
+            }
+            function bf2 ()
+            {
+                op.textContent =event.target.textContent
+            }
+            function bf3 ()
+            {
+                op.textContent =event.target.textContent
+            }
+
+
+
         </script>
     </body>
 </html>

@@ -1,0 +1,4 @@
+HTML - to create a blank html you need to click the ! and then you need to click tab or else enter. to create an empty html easly.
+HTML - to comment the multiple lines of code you need to first select the set of code and then you need to press the ctrl +/ to make the code to be comments. so that it ownt read.
+append()- this makes the element to create one or more nodes for example if you use this in a div to create h1 element in it.
+event - event is the one of the method of DOM which helps to get the complete data of the html element and use for manupulations
