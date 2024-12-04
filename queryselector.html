@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selecting element using queryselector</title>
+</head>
+<body>
+    <h2 class="n">One</h2>
+    <h2 class="n">Two</h2>
+    <h2 class="n">Three</h2>
+    <script>
+        var num = document.querySelectorAll(".n")
+        for (count =0;count<num.length;count=count+1)
+    {
+        console.log(num[count].textContent)
+    }
+    </script>
+</body>
+</html>

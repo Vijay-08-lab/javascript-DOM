@@ -2,3 +2,19 @@ HTML - to create a blank html you need to click the ! and then you need to click
 HTML - to comment the multiple lines of code you need to first select the set of code and then you need to press the ctrl +/ to make the code to be comments. so that it ownt read.
 append()- this makes the element to create one or more nodes for example if you use this in a div to create h1 element in it.
 event - event is the one of the method of DOM which helps to get the complete data of the html element and use for manupulations
+inner.HTML => this used to create a html tag newly using DOM manpulation.
+
+Different types of selecting an element in DOM.
+1. .queryselector
+2. .queryselectorall
+3. .getElementById
+4. .getElementByClass
+5. .getElementByTagName.
+
+in javascript the most of the properties are been act as canamel case senstive which is mean the first letter of the element will be in caps and other are in small cap.
+
+Array in javascript
+
+array will always consider in these order only (0,1,2,3,4...10)
+the first element is always will be considered as 0th position.
+
