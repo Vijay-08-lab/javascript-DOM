@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating TOdo list using DOM manupulation</title>
+</head>
+<h1>TOdo List</h1>
+<hr>
+<input id="input">
+<button id="add" onclick="add()">Add</button>
+<ul id="headlist">
+    <li >Hello
+    <button id="delete" onclick="del(event)">Delete</button>
+</li>
+</ul>
+
+<body>
+    <script>
+        var input = document.getElementById("input")
+        var id =document.getElementById("headlist")
+        function add()
+        {
+            var creatlist = document.createElement("li")
+            creatlist.innerHTML =input.value + "<button onclick='del(event)'>Delete</button>"
+            id.append(creatlist)
+            console.log(creatlist)
+          
+        }
+        function del(event)
+        {
+            event.target.parentElement.remove( )
+        }
+
+
+    </script>
+</body>
+</html>

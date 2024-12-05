@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Append and prepend concept in DOM manuplations</title>
+</head>
+<body>
+    <div class="div">
+        <h1>Welcome</h1>
+    </div>
+    <script>
+        var div = document.querySelector("div")
+        var h1 = document.createElement(h1)
+        var h2 = document.createElement(h2)
+        h2.innerHTML ="Hello!"
+        h1.innerHTML = "Good Morning"
+        div.append(h1)
+        div.prepend(h2)
+
+
+    </script>
+    
+</body>
+</html>
