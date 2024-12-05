@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.hbar{
+    background-color: #FD6569;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    padding: 10px;
+}
+.container-box{
+    text-align: left;
+    padding: 15px;
+    width: 25%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 30px;
+}
+.container-box h2{
+    color: #FD6569;
+}
+.container-box button{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.add-bt{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 100%;
+    padding: 20px 30px;
+    font-size: 40px;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.popup-box {
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    width: 40%;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 2;
+.popup-box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+}
+
+}
