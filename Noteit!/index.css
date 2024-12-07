@@ -21,6 +21,8 @@ body{
     color: white;
     border-radius: 10px;
     margin: 30px;
+    display: inline-block;
+    vertical-align: top;
 }
 .container-box h2{
     color: #FD6569;
@@ -52,6 +54,7 @@ body{
     top: 0;
     left: 0;
     z-index: 1;
+    display: none;
 }
 .popup-box {
     background-color: #FD6569;
@@ -63,10 +66,42 @@ body{
     top: 20%;
     left: 20%;
     z-index: 2;
+    display: none;
+}
 .popup-box input{
     background: transparent;
     border: none;
     width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
 }
-
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
 }
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+.popup-box button{
+    background-color: black;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.popup-box input:focus{
+outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+    }
