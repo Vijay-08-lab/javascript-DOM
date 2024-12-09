@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learning javascript</title>
+</head>
+<body class="bd">
+    <h1 id="h1"></h1>
+    <h4 id="te"></h4>
+    <script>
+         var h1 = document.getElementById("h1")
+         h1.textContent="Hello"
+         var bd = document.querySelector(".bd")
+         var h2 = document.createElement("h2")
+         h2.textContent="Vijay"
+         bd.append(h2)
+         var h3 = document.createElement("h3")
+         h3.innerHTML= "<input id='input'><br><button onclick='inputadd()'>Add</button>"
+         bd.prepend(h3)
+         function inputadd()
+         {
+            var input = document.getElementById("input")
+            var te =document.getElementById("te")
+             te.textContent=input.value;
+         }
+
+    </script>
+</body>
+</html>
