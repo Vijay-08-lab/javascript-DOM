@@ -1,0 +1,41 @@
+body{
+    background-color: skyblue;
+}
+
+#outer{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 35%;
+    padding:30px ;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#inner{
+    background-color: black;
+    height: 300px;
+    width: auto;
+    position: absolute;
+    left: 35px;
+}
+div h1{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 30px;
+}
+div input{
+    margin-left: 50Px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+div button{
+    margin-left: 110px;
+    height: 30px;
+    border-radius: 10px;
+}
+#res{
+    color: white;
+    margin-left: 50px;
+}
