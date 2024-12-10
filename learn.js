@@ -20,4 +20,6 @@ cal()*/
 let tickets = prompt("How many tickets you want?")
 console.log("You should pay",tickets*10 +"Rupees")
 */
+let a = Math.floor(Math.random()*6)
+console.log(a)
 
