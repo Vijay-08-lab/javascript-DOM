@@ -1,0 +1,44 @@
+body{
+    background-color: skyblue;
+}
+
+#outer{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 35%;
+    padding:30px ;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+#inner{
+    background-color: black;
+    height: 300px;
+    width: 260px;
+    position: absolute;
+    left: 50px;
+}
+div h1{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+}
+div select{
+    margin-left: 60Px;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 40px;
+    padding: 5px;
+}
+div button{
+    margin-left: 90px;
+    height: 30px;
+    border-radius: 10px;
+}
+#res{
+    color: white;
+    margin-left: 50px;
+}
