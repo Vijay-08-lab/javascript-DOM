@@ -117,6 +117,7 @@ console.log(spread)
 
 // now task part //
 */
+/*
 let arr = [5,8,10,7,9,11]
 //replace with [7,9,11] to [17,19,111]
 let a = arr.splice(3,3,17,19,111)
@@ -133,3 +134,127 @@ console.log(arr)
 //insert 0 on the middle of the index
 let insert = arr.splice(arr.length -5,0,0)
 console.log(arr)
+*/
+//  javascript - object task
+//create a Object and define appropriate properites and methods. try to accessing/ modifiying/adding new values
+/*
+user = {
+    name : "siva",
+    city : "japan",
+    age : 43,
+    martialstatus : "single",
+    education : "MBA",
+    cal(){
+        text ="this a dummy method"
+        console.log(text)
+    }
+}
+//acessing user data
+console.log(user.name,user.education)
+// modifying user data
+user.name = 'vijay'
+console.log(user.name)
+user.age = 28
+console.log(user.age)
+//adding a new property
+user.favouritecolor = 'red'
+console.log(user)
+console.log(user['martialstatus'])
+user.city = 'vellore'
+console.log(user)
+user.cal()
+
+*/
+// for loop task //
+/*
+let a = 1
+
+for (a;a<=10;a++){
+    console.log(a)
+}
+// while loop//
+const fruit = ['apple','grapes','orange','bannana']
+for (let basket of fruit){
+    console.log(basket)
+}
+const car = {
+    name: 'maruti',
+    model: 'k10',
+    year: 2008,
+    owner: 'vijay'
+}
+    for ( let details in car)
+    {
+        console.log(details)
+    }
+    // while loop
+   c = 10;
+while(c>=1){
+    console.log("print by whileloop "+c)
+    c--;
+}
+// do while loop
+c=20
+do{
+    console.log("Printed by do while loop "+c)
+    c--;
+}
+while(c>=1)
+//continue - skips the current itteration.
+for(i=0;i<=10;i++)
+{
+    if(i%2==0)
+        continue
+    console.log(i)
+}
+/*
+let toy = new Map();
+// map set method
+toy.set("airplane",200),
+toy.set("car",100),
+toy.set("truck",150)
+toy.set('bike',50)
+//map get method
+let price = toy.get("bike")
+console.log(price)
+// map entries method
+for(play of toy.entries())
+console.log(play)
+// map method key
+for(toys of toy.keys())
+console.log(toys)
+//map method values
+for (btoy of toy.values())
+console.log(btoy)
+
+//creating object and setting new elements.
+    const car = {name: 'car'}
+    const bike = {name: 'bike'}
+    const truck = {name: 'truck'}
+    const airplane = {name: 'aitplane'}
+let transport = new Map();
+transport.set = (car,100)
+transport.set = (bike,50)
+transport.set = (truck,150)
+transport.set = (airplane,200)
+for (playof of transport.entries())
+console.log(playof)
+*/
+
+//switch statement with the simple explain case will be due to wheather the switch statement should suggest me what to do.
+
+let season = rainy
+
+switch(season)
+{
+    case rainy :
+        console.log("you need to go with umberalla")
+        break
+        case winter :
+            console.log("wear and go sweater and keep warm yourself")
+            break
+            case sunny :
+                console.log("get yourself wet!. it's so hot")
+                default :
+                console.log("choose vaild season")
+}

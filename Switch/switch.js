@@ -4,12 +4,34 @@
 //madurai - Madurai is an energetic, ancient city on the Vaigai River in the South Indian state of Tamil Nadu. Its skyline is dominated by the 14 colorful gopurams (gateway towers) of Meenakshi Amman Temple. Covered in bright carvings of Hindu gods, the Dravidian-style temple is a major pilgrimage site. Millions attend the processions and ceremonies of April's Chithirai Festival celebrating Meenakshi and Lord Vishnu.
 
 const button = document.querySelector('button');
-button.addEventListener('click', displayres);
-
-function displayres() {
+button.addEventListener('click', displaystatus);
+const inner = document.getElementById("inner")
+  const res = document.createElement("h1")
+function displaystatus() {
   const input = document.getElementById('input');
   const cityinput = input.options[input.selectedIndex].value;
-  console.log(cityinput);
+  let description = ""
+  switch(cityinput){
+    case 'Chennai':
+        description = "Chennai, on the Bay of Bengal in eastern India, is the capital of the state of Tamil Nadu." 
+  break
+  case 'Vellore':
+    description = "Vellore is a city in the state of Tamil Nadu, in southern India. "
+break
+    case 'Salem':
+    description = "Salem is a city on the Thirumanimuthar River, in the south Indian state of Tamil Nadu. "
+break
+case 'Madurai':
+    description = "Madurai is an energetic, ancient city on the Vaigai River in the South Indian state of Tamil Nadu. "
+break
+default :
+ description = "Please choose vaild city"  
 }
+  
+  res.innerHTML = description;
+  inner.append(res);
+
+}
+
 
 
