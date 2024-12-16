@@ -242,19 +242,38 @@ console.log(playof)
 */
 
 //switch statement with the simple explain case will be due to wheather the switch statement should suggest me what to do.
-
-let season = rainy
+/*
+let season = "sunny";
 
 switch(season)
 {
-    case rainy :
-        console.log("you need to go with umberalla")
+    case "rainy" :
+        console.log("you need to go with umberalla");
         break
-        case winter :
-            console.log("wear and go sweater and keep warm yourself")
+        case "winter" :
+            console.log("wear and go sweater and keep warm yourself");
             break
-            case sunny :
-                console.log("get yourself wet!. it's so hot")
+            case "sunny" :
+                console.log("get yourself wet!. it's so hot");
+                break
                 default :
-                console.log("choose vaild season")
+                console.log("choose vaild season");
 }
+*/
+
+//teranary operator
+// task is check the age and suggest drink.
+/*
+let age = 19;
+let suggession = age>=21? 'Beer' : 'juice' ;
+console.log(suggession);
+*/
+
+// rock paper siscor game
+/*
+let player = "rock";
+let computer = "sisscor";
+let result = player === computer ? "Tie!" : player === "paper" && computer === "rock"?"player Wins": player === "sisscor" && computer === "paper"?"player win!":player === "rock" && computer == "sisscor"?"player wins":"computer wins"
+console.log(result)
+*/  
+
