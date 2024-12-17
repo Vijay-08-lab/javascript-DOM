@@ -275,5 +275,15 @@ let player = "rock";
 let computer = "sisscor";
 let result = player === computer ? "Tie!" : player === "paper" && computer === "rock"?"player Wins": player === "sisscor" && computer === "paper"?"player win!":player === "rock" && computer == "sisscor"?"player wins":"computer wins"
 console.log(result)
-*/  
+*/
+function startree (height)
+{
+    for (let i =1;i<=height;i++)
+    {
+       let space = ' '.repeat(height-i);
+        let star = '*'.repeat(2*i -1)
+        console.log(space +star)
+    }
+}
+startree(5)
 
